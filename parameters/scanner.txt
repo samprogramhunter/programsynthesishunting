@@ -1,0 +1,27 @@
+CACHE:                  False
+CODON_SIZE:             100000
+CROSSOVER:              variable_onepoint
+CROSSOVER_PROBABILITY:  0.9
+DEBUG:                  False
+ERROR_METRIC:           mse
+GENERATIONS:            5
+MAX_GENOME_LENGTH:      10
+GRAMMAR_FILE:           simple_scanner.bnf
+INITIALISATION:         PI_grow
+INVALID_SELECTION:      False
+MUTATION:               int_flip_per_codon
+MUTATION_PROBABILITY:   .05
+POPULATION_SIZE:        5
+FITNESS_FUNCTION:       scanner_eval
+REPLACEMENT:            generational
+SELECTION:              tournament
+TOURNAMENT_SIZE:        2
+VERBOSE:                False
+
+Novelty:                False
+MUTATE_DUPLICATES:      True
+NOVELTY_BY_GEN:         True
+NOVELTY_FACTOR:         0
+NOVELTY_SELECTION_ALG:  knob
+NOVELTY_ALGORITHM:      derivation
+EXPERIMENT_NAME:        scanner_basic

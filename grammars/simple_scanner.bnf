@@ -1,0 +1,5 @@
+<output> ::= [<num_ips>, <ports>, <wait_time>, <wait_time>, <retries>]
+<num_ips> ::= 2 | 4 | 8 | 16 | 32 | 64 | 128 | 256
+<ports> ::= "'all'" | "'linux'" | "'windows'" | "'mac'" | "'random'"
+<wait_time> ::= 1 | 10 | 100 | 1000
+<retries> ::= 1 | 2 | 3 | 4 | 5
